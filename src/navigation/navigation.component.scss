@@ -1,0 +1,45 @@
+@import '../styles.scss';
+.navigation {
+  position: fixed;
+  background-color: rgb(70,45,60);
+  width: 100vw;
+}
+
+.header-name{
+  display: flex;
+  color: $cream-white,
+}
+
+a{
+  color: $dark-mist;
+}
+
+.nav-button{
+  background-color: $cream-white ;
+  border-radius: 25px;
+  border: 10px solid rgb(255,255,220);
+  box-shadow: 1px 5px 5px #361c27;
+  height: 1rem;
+}
+
+.button-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2vh;
+  align-items: center;
+  //auto is a great thing for automating the flex item inside
+  //the flex-container to be on the left side of the container
+  margin-left: auto;
+}
+
+.navigation-content{
+  display: flex;
+  flex-direction: row;
+  gap: 10vw;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: center;
+  margin-left: 1vh;
+  margin-right: 1vh;
+}
